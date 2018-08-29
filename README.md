@@ -35,21 +35,24 @@ We utilized the following learning model algorithms, compared them, and utilized
 
 |    Algorithm      |   Score   |
 |---------------    |---------- |
-| Random Forest     | 5.53-5.85 |
-|    SVR            |70.61-80.18|
+|   Random Forest   | 5.53-5.85 |
+|        SVR        |70.61-80.18|
 |  Linear Regression| 4.13-5.05 |
+|  bbK Neighbours   |   24.89   |
+|      XGBoost      |   8.58    |
+|Boosted Random Forest | 8.22   |
+| Bagging Regressors|  10.26    |
 
 A visual representation of the accuracies of the models is as follows:
 
-![aaa](https://user-images.githubusercontent.com/23614555/44804734-dc7c7200-abdf-11e8-9860-a4954ae1fd79.png)
+![aaa](https://user-images.githubusercontent.com/23614555/44808897-fec7bd00-abea-11e8-9cc8-aa80bc52398c.png)
 
-This helped us come to the conclusion.
+This helped us come to the conclusion:
 
 ### Conclusion
 Since the accuracy of Linear Regression is the highest (off by the lowest value of suicides), it helped us infer that with each year, the rate of US veteran suicides increases. Next, we tried comparing it to the rate of civilian suicides over the years, which concluded as:
 
-![aab](https://user-images.githubusercontent.com/23614555/44804835-30875680-abe0-11e8-9185-78b8c472fb8f.png)
-
+![aab](https://user-images.githubusercontent.com/23614555/44808840-e061c180-abea-11e8-8b76-915d31040c80.png)
 This led to the unfortunate inference that the rate of suicides have progressively increased with each year for both civilians, and US veterans, although the rate has increased faster for the latter.
 
 ### Utilization of results
