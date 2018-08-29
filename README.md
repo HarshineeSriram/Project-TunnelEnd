@@ -53,7 +53,8 @@ This helped us come to the conclusion:
 Since the accuracy of Linear Regression is the highest (off by the lowest value of suicides), it helped us infer that with each year, the rate of US veteran suicides increases. Next, we tried comparing it to the rate of civilian suicides over the years, which concluded as:
 
 ![aab](https://user-images.githubusercontent.com/23614555/44808840-e061c180-abea-11e8-8b76-915d31040c80.png)
-This led to the unfortunate inference that the rate of suicides have progressively increased with each year for both civilians, and US veterans, although the rate has increased faster for the latter.
+
+This led to the unfortunate inference that the rate of suicides has progressively increased with each year for both civilians, and US veterans, although the rate has increased faster for the latter.
 
 ### Utilization of results
 The gathered results have the following possible uses:
