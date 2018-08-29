@@ -38,7 +38,7 @@ We utilized the following learning model algorithms, compared them, and utilized
 |   Random Forest   | 5.53-5.85 |
 |        SVR        |70.61-80.18|
 |  Linear Regression| 4.13-5.05 |
-|  bbK Neighbours   |   24.89   |
+|  K Neighbours   |   24.89   |
 |      XGBoost      |   8.58    |
 |Boosted Random Forest | 8.22   |
 | Bagging Regressors|  10.26    |
